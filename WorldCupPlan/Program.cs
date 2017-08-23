@@ -13,7 +13,7 @@ namespace WorldCupPlan
     {
         static void Main(string[] args)
         {
-            var allLines = File.ReadAllLines(@"D:\WorldCup\matches-complete.csv");
+            var allLines = File.ReadAllLines(@"./matches-complete.csv");
             var matches = new List<Match>();
             for (int i = 0; i < allLines.Length; i = i + 4)
             {
